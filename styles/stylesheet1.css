@@ -148,12 +148,17 @@ ul {
     justify-content: center;
     align-items: flex-start;
     gap: 56px;
-    margin-top: 145px;
+    margin-top: 195px;
     background-image: linear-gradient(rgba(255,255,255,1), rgba(128, 0, 128, .09));
+    padding-bottom: 130px;
+}
+
+#bottom-img-container {
+    margin-left: 179px;
 }
 
 #bottom-img-container > img {
-    width: 360px;
+    width: 300px;
     height: 390px;
     object-fit: cover;
     border-radius: 26px;
@@ -172,10 +177,10 @@ ul {
 
 #img-person {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 16px;
     font-size: 21px;
-    margin-top: 50px;
+    margin-top: 73px;
 }
 
 #bottom-img-info > h3 {
@@ -184,5 +189,5 @@ ul {
 }
 
 #bottom-img-info > p {
-    font-size: 25px;
+    font-size: 20px;
 }
